@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MeekroOS Live Welcome
+Exec=meekro-welcome --live
+Type=Application
+Terminal=false
+OnlyShowIn=GNOME;
+NoDisplay=true
+X-GNOME-Autostart-enabled=true

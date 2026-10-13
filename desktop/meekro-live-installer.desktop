@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Install MeekroOS
+Comment=Launch the MeekroOS Live installer
+Exec=meekro-welcome --live
+Icon=meekro-welcome
+Terminal=false
+Type=Application
+Categories=System;
+StartupNotify=true

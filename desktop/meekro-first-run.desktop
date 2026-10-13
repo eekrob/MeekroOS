@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=MeekroOS First Run
+Comment=Set up MeekroOS after installation
+Exec=meekro-welcome --first-run
+Icon=meekro-welcome
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
+OnlyShowIn=GNOME;
+NoDisplay=true

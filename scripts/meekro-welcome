@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+"""Entry point for RPM install and development checkout."""
+import sys
+from pathlib import Path
+installed = Path("/usr/libexec/meekro/meekro")
+if installed.exists():
+    sys.path.insert(0, str(installed.parent))
+else:
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from meekro.app import main
+raise SystemExit(main())

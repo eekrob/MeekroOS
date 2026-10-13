@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Meekro Control Center
+Comment=Customize GNOME, development tools and games
+Exec=meekro-welcome
+Icon=meekro-welcome
+Terminal=false
+Type=Application
+Categories=Settings;System;
+StartupNotify=true

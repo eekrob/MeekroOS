@@ -1,0 +1,21 @@
+/* Custom Cockpit/Anaconda WebUI branding for MeekroOS.
+   Install in /etc/cockpit/branding/ and pair with logo.png. */
+.anaconda {
+    --brand-default: #e93442;
+    --brand-default-light: #ff5967;
+    --brand-default-dark: #aa1028;
+}
+.anaconda .logo {
+    background-image: url("logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+:not(.pf-v6-theme-dark) .anaconda {
+    --pf-t--global--color--brand--default: var(--brand-default);
+    --pf-t--global--color--brand--hover: var(--brand-default-dark);
+}
+.pf-v6-theme-dark .anaconda {
+    --pf-t--global--color--brand--default: var(--brand-default-light);
+    --pf-t--global--color--brand--hover: var(--brand-default);
+}

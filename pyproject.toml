@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meekro-welcome"
+version = "0.1.0"
+description = "MeekroOS GNOME welcome, app installer and control center"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "MeekroOS contributors"}]
+
+[project.scripts]
+meekro-welcome = "meekro.app:main"
+
+[tool.setuptools.packages.find]
+include = ["meekro*"]

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+dist/
+*.iso
+*.rpm
+*.qcow2
+*.log
+*.egg-info/
